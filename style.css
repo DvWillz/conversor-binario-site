@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    padding: 25px;
+}
+
+header > p {
+    margin-left: 40px;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+main {
+    padding: 10px;
+}
+
+textarea {
+    margin: 5px;
+}
+
+#s-inputs {
+    margin: auto;
+    width: 560px;
+    padding: 5px;
+}
+
+#s-inputs > textarea {
+    background-color: rgb(56, 56, 56);
+    border: 1.5px solid black;
+    color: white;
+}
+
+main > input {
+    display: block;
+    margin: auto;
+    background-color: rgb(19, 19, 73);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+}
